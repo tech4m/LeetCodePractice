@@ -1,4 +1,6 @@
-﻿namespace QuestionsLibrary
+﻿using System.Collections.Generic;
+
+namespace QuestionsLibrary
 {
     public class Problem933
     {
@@ -21,7 +23,7 @@
             {
                 recentCallQueue.Dequeue();
             }
-            return recentCallQueue.Count();
+            return recentCallQueue.Count;
         }
     }
 }
